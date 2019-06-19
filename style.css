@@ -1,0 +1,1076 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: helvetica; 
+    letter-spacing: 1px;
+    line-height: 2em;
+    color: #333; 
+}
+
+body {
+    background-color: #F7F7F7;
+    font-family: Helvetica;
+    opacity: .9;
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-family: simplistic sans;
+}
+
+.fruitmachine {
+    width: 100%;
+    height: 100%;
+    margin: -.5em;
+    padding: 0;
+}
+
+.image {
+    background: url('images/klik3.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+}
+
+.image2 {
+    background: url('images/afbeelding2.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+    filter: blur(3px);
+    z-index: -4;
+}
+
+.image3 {
+    background: url('images/Fruitmachine_close.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+/*    filter: blur(6px);*/
+    z-index: -3;
+    transform: scale(1.1);
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+.content2 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+    margin-top: 30em;
+}
+
+.content3 {
+    max-width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: -1;
+}
+
+.content4 {
+    margin: -.5em;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 6;
+    min-height: 50em;
+}
+
+.content5 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+.content6 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+
+.buttonlorem {
+    background-color: #0077CC;
+    color: white;
+    display: inline-block;
+    padding: .5em 1em;
+    z-index: 0;
+    position: absolute;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: normal;
+    box-shadow: 0 0 3px #aaa;
+    margin-left: 4em;
+    margin-top: -12em;
+    animation: flicker 7s linear infinite;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.7;
+    }
+
+    1% {
+        opacity: 0.9;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    7% {
+        opacity: 0.8;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    16% {
+        opacity: 0.8;
+    }
+
+    20% {
+        opacity: 0.9;
+    }
+
+    22% {
+        opacity: 0.7;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.8;
+    }
+
+    85% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.oranjecirkel {
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    border-radius: 3px;
+    margin-left: 4em;
+    margin-top: -14em;
+}
+
+.buttonlorem:hover {
+    background-color: #4A9142;
+}
+
+.buttonlorem > div {
+    height: 2em;
+    width: 2em;
+    background-color: #f50;
+    border-radius: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.buttondv {
+    background-color: lightblue;
+    color: lawngreen;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    z-index: 3;
+    position: absolute;
+    margin-top: 22em; 
+}
+
+.button2 {
+    background-color: #0077CC;
+    color: #fff;
+    margin-left: 20em;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
+    z-index: 2;
+    top: 22%;
+    position: absolute;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 3px #aaa;
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0%   {transform: scale(1);}
+  100% {transform: scale(1.6);}
+}
+
+
+.button2:hover {
+    background-color: #003580;
+}
+
+.button {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.amazon {
+    position: absolute;
+    top: 3em;
+    left: -40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    z-index: -4; 
+    transform: scale(1.2);
+    opacity: 0; 
+}
+
+
+.buttonamazon {
+    z-index: 9;
+    color: white; 
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 70.7em;
+    padding: 12px 22px;
+    background-color: #0077cc; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 29px -6px rgba(0,0,0,0.75);
+    width: 5em;
+}
+
+.buttonamazon:hover {
+    background-color: pink; 
+    color: white; 
+}
+
+.buttonamazon > a {
+    color: pink; 
+    font-size: 25px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    z-index: 9;
+}
+
+
+.animatie2 {
+    opacity: 1 !important;
+    animation: fadeInLeft 3s forwards !important;
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translatex(100%);
+        visibility: visible;
+    }
+
+    to {
+        transform: translatex(0%);
+    }
+}
+
+
+.animatie {
+    opacity: 1 !important;
+    animation: fadeInLeft2 3s forwards !important; 
+    
+}
+
+@keyframes fadeInLeft2 {
+    from {
+        transform: translateX(770px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+.textvak {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 2em;
+    margin-top: -55em;
+    margin-left: -.5em;
+    opacity: .8;
+    font-weight: light;
+    width: 30em; 
+    display: inline-block;
+}
+
+.facebook {
+    transform: scale(0.6);
+    max-width: 100%;
+    margin-left: -300px;
+    margin-top: -26em;
+    z-index: -10; 
+}
+
+.svg2 {
+    position: absolute;
+    margin-top: -50px;
+    z-index: 1000; 
+}
+
+.svg3 {
+    opacity: 0;
+    z-index: -10; 
+}
+
+
+.button3 {
+    left: 6.9em;
+    padding: 4em 3em;
+    font-size: 25px;
+    margin-top: 9.4em;
+    z-index: 2;
+    position: absolute;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 55px red, 0 0 75px red;
+    animation: text-flicker 3s linear infinite;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@keyframes text-flicker {
+    0% {
+        opacity: 0.1;
+    }
+
+    1% {
+        opacity: 0.9;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    7% {
+        opacity: 0.5;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    16% {
+        opacity: 0.3;
+    }
+
+    20% {
+        opacity: 0.9;
+    }
+
+    22% {
+        opacity: 0.7;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    85% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.section4text {
+    opacity: 0;
+}
+
+.picture2 {
+    opacity: 0;
+    margin-top: -37.5em;
+    margin-left: 21.3em;
+    max-height: 20em;
+}
+
+
+.amazon > p {
+    width: 14em;
+    margin-left: 108em;
+    padding: 1em;
+    background-color: #f50; 
+    position: absolute;
+    margin-top: -1em;
+    color: white; 
+    box-shadow: -15px 15px #ccc;
+    z-index: 12; 
+}
+
+.datavis {
+    background-color: lightblue;
+    color: white;
+    max-width: 35em;
+    height: 10em;
+    widows: 10em;
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    margin-bottom: -40%;
+}
+
+.backbutton {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.backlink {}
+
+.bluebutton {
+    z-index; -10; 
+}
+
+.content5 > p {
+    color: grey;
+    max-width: 25em;
+    position: absolute;
+    letter-spacing: 1px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.grijsvlak {
+    margin-left: 31em;
+    transform: scale(.95);
+    margin-top: -56em;
+    animation: flickerAnimation 6s infinite;
+    margin-left: 32em;
+}
+
+    @keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:.3; }
+  100% { opacity:1; }
+}
+
+
+
+.titel {
+    margin-top: 3em;
+margin-left: 14em;
+    margin-bottom: -4em;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+    top: 90%;
+    text-align: center;
+    color: #000;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+}
+
+.klikhier {
+    display: block;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+    z-index: 2;
+    top: 90%;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
+
+.introtext {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    color: white;
+    max-width: 25em;
+    margin-left: 33em;
+    text-align: center;
+    background-color: #f50; 
+    box-shadow: -5px 5px white; 
+    padding: 1em; 
+}
+
+.bookingtext {
+    margin-left: 30%;
+    position: absolute;
+    background-color: #f50;
+    color: white;
+    position: absolute;
+    padding: 2em;
+    margin-top: -53%;
+    margin-left: 35em;
+    box-shadow: -15px 15px #ccc;
+}
+
+
+.bookingdiv {
+    margin-top: 10%;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+}
+
+.bookingkantoor {
+    height: 780px;
+    margin-left: 7.5em;
+    z-index: 2;
+    position: absolute;
+    margin-top: -65px;
+}
+
+
+.feestje2 {
+    background-color: #49AA3D;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 30px;
+    z-index: 2;
+    top: 24%;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 3px #aaa;
+
+}
+
+
+.feestje2button {
+    position: absolute;
+    margin-top: 40em; 
+    margin-left: 20em;
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+
+@keyframes shake {
+   10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+
+
+
+.pijltjes {
+    margin-left: 20em;
+    margin-top: -2em;
+}
+
+.feestje4 {
+    background-color: #49AA3D;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.8em;
+    z-index: 1;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: light;
+    box-shadow: 0 0 3px #aaa;
+    position: absolute;
+    animation: schudden .5s infinite;
+}
+
+@keyframes schudden {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.feestje4:hover {
+    background-color: #4A9142;
+}
+
+.feestje4div {
+    margin-left: 49.4em;
+    margin-top: -3.5em;
+}
+
+
+.watzou {
+    margin-left: 19em;
+    transform: scale(0.6) rotate(-7deg);
+    margin-top: 4em;
+}
+
+.versiec {
+    opacity: 0;
+}
+
+.versiea {
+    position: absolute;
+    margin-left: 8em;
+}
+
+.versieb {
+    position: absolute;
+    margin-left: 40em; 
+}
+
+
+.zoeken {
+    margin-right: 10em;
+    transform: scale(1.2);
+    margin-top: 6.4em;
+    margin-left: -3em;
+    box-shadow: -10px 10px #f50; 
+}
+
+.zoeken2 {
+    transform: scale(1.2);
+    margin-top: 6.4em;
+    position: absolute;
+    box-shadow: -10px 10px #f50; 
+}
+
+
+
+
+.button4 {
+    animation: fadeIn 6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translatex(650px);
+    }
+
+    to {
+        transform: translatex(0px);
+    }
+}
+
+.textfoto {
+    position: absolute; 
+    z-index: 2;
+    color: white; 
+    margin-left: 7.5em; 
+    margin-top: -4em;;
+    background: black; 
+    opacity: .9; 
+    max-width: 40em;
+    padding: 2em;
+    letter-spacing: 1px;
+    font-weight: light;
+}
+
+/*https://vincentgarreau.com/particles.js/*/
+.particles {
+    background-color: #f50; 
+    width: 44em; 
+    height: 47.6em;
+    margin-left: 33.1em;
+    margin-top: -3.1em;
+}
+
+.bookingphoto {
+    margin-left: -6.8em;
+    transform: scale(1.6);
+    margin-top: 1.2em; 
+}
+
+.facebookdiv {
+    position: absolute;
+    margin-left: -7em;
+    width: 30em;
+    margin-top: 3em;
+}
+
+.facebookdiv > img {
+    margin-bottom: 2em;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+    margin-left: -24em; 
+}
+
+.buttoneinde {
+    position: absolute;
+    margin-left: -28em;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    color: #3B5998;
+}
+
+.klikhiereinde {
+    font-family: "Helvetica Neue";
+    font-size: 1.5em;
+    color: #3B5998;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+    z-index: 2;
+    top: 90%;
+    position: absolute;
+}
+
+.chevron2 {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+    top: 90%;
+    text-align: center;
+    color: #000;
+}
+
+.chevron2:first-child {
+    animation: move2 3s ease-out 1s infinite;
+}
+
+.chevron2:nth-child(2) {
+    animation: move2 3s ease-out 2s infinite;
+}
+
+.chevron2:before,
+.chevron2:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #f50;
+}
+
+.chevron2:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron2:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move2 {
+    25% {
+        opacity: 1;
+
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+
+.eindtext {
+    transform: scale(.8);
+    margin-left: -5em;
+}
+
+.eindtext > img {
+    margin-top: 8em;
+}
+
+.tegenlicht {
+    animation: schudden .5s infinite;
+    margin-left: 55em;
+    margin-top: 4em;
+}
+
+@keyframes schudden {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.tegenlicht > a > img {
+    transform: scale(.4) rotate(-90deg);
+}
+
+.tweedetext {
+    transform: scale(.6);
+    margin-left: 9em;
+}
+
+.content6 > p {
+    color: darkseagreen;
+    position: absolute;
+    font-size: 5em;
+    text-shadow: 0 0 5px #FFFFFF;
+    margin-left: 7em;
+    margin-top: -40px;
+    animation: crescendo1 1.5s alternate infinite ease-in;
+}
+
+@keyframes crescendo1 {
+  0%   {transform: scale(1);}
+  100% {transform: scale(1.6);}
+}
+
+
+/*https://codepen.io/melissacabral/pen/NvmJwx*/
+.to-top {
+    color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+	transition:all .3s ease-out;
+    margin-left: -75em;
+}
+
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+
+.to-top:hover{
+	color:pink;
+	border-color:pink;
+}
+
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
