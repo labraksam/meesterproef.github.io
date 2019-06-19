@@ -1,0 +1,704 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+body {
+    /*    background: url('images/achtergrond2.png');*/
+    background-color: #F7F7F7;
+    font-family: Helvetica;
+    opacity: .9;
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-family: simplistic sans;
+}
+
+.fruitmachine {
+    width: 100%;
+    height: 100%;
+    margin: -.5em;
+    padding: 0;
+}
+
+.image {
+    background: url('images/Fruitmachine_close.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+}
+
+.image2 {
+    background: url('images/afbeelding2.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+    filter: blur(3px);
+    z-index: -4;
+}
+
+.image3 {
+    background: url('images/afbeelding3.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 64em;
+    margin: -.5em;
+    filter: blur(6px);
+    z-index: -3;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+.content2 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+    margin-top: 30em;
+}
+
+.content3 {
+    max-width: 95%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: -1;
+}
+
+.content4 {
+    margin: -.5em;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+.content5 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+.content6 {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    min-height: 50em;
+}
+
+
+.buttonlorem {
+    background-color: #49AA3D;
+    color: white;
+    display: inline-block;
+    padding: .5em 1em;
+    z-index: 0;
+    position: absolute;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 2em;
+    cursor: pointer;
+    font-weight: normal;
+    box-shadow: 0 0 3px #aaa;
+    margin-left: 4em;
+    margin-top: -14em;
+}
+
+.oranjecirkel {
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    border-radius: 3px;
+    margin-left: 4em;
+    margin-top: -14em;
+}
+
+.buttonlorem:hover {
+    background-color: #4A9142;
+}
+
+.buttonlorem > div {
+    height: 2em;
+    width: 2em;
+    background-color: #f50;
+    border-radius: 50%;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.buttondv {
+    background-color: lightblue;
+    color: lawngreen;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    z-index: 3;
+    position: absolute;
+    margin-top;
+}
+
+.button2 {
+    background-color: #0077CC;
+    color: #fff;
+    left: 39%;
+    padding: 1px 8px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 8px;
+    z-index: 2;
+    top: 24%;
+    position: absolute;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 3px #aaa;
+}
+
+.button2:hover {
+    background-color: #003580;
+}
+
+.button {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.amazon {
+    position: absolute;
+    top: 3em;
+    left: -40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    opacity: 0;
+    z-index;
+    -4;
+}
+
+#abc {
+    animation: fadeInLeft 3s forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translatex(100%);
+        visibility: visible;
+    }
+
+    to {
+        transform: translatex(0%);
+    }
+}
+
+
+#amazon1 {
+    animation: fadeInLeft2 3s forwards;
+}
+
+@keyframes fadeInLeft2 {
+    from {
+        transform: translateX(650px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+
+.animatie {
+    opacity: 1 !important;
+}
+
+
+.animatie2 {
+    opacity: 2 !important;
+}
+
+
+
+.textvak {
+    background-color: black;
+    color: white;
+    max-width: 35em;
+    position: absolute;
+    padding: 2em;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    border-radius: 0px 4px 4px 0px;
+    line-height: 1.5em;
+    margin-top: -55em;
+    margin-left: -.5em;
+    opacity: .8;
+    font-weight: light;
+}
+
+.facebook {
+    transform: scale(0.6);
+    max-width: 100%;
+    margin-left: -300px;
+    margin-top: -28em;
+}
+
+.svg2 {
+    position: absolute;
+    margin-top: -50px;
+}
+
+.svg3 {
+    opacity: 0;
+}
+
+.button3 {
+    left: 6.9em;
+    padding: 4em 3em;
+    font-size: 25px;
+    z-index: 2;
+    top: 9.7em;
+    position: absolute;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 55px red, 0 0 75px red;
+    animation: text-flicker 3s linear infinite;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@keyframes text-flicker {
+    0% {
+        opacity: 0.1;
+    }
+
+    1% {
+        opacity: 0.9;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    7% {
+        opacity: 0.5;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    16% {
+        opacity: 0.3;
+    }
+
+    20% {
+        opacity: 0.9;
+    }
+
+    22% {
+        opacity: 0.7;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    85% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.button3:hover {
+    background-color: red;
+    opacity: .9;
+}
+
+.section4text {
+    opacity: 0;
+}
+
+.picture2 {
+    opacity: 0;
+    margin-top: -60%;
+    margin-left: 45%;
+    max-height: 20em;
+}
+
+.buttonamazon {
+    margin-left: 80%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.datavis {
+    background-color: lightblue;
+    color: white;
+    max-width: 35em;
+    height: 10em;
+    widows: 10em;
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    margin-bottom: -40%;
+}
+
+.backbutton {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.backlink {}
+
+
+.content5 > p {
+    color: grey;
+    max-width: 25em;
+    position: absolute;
+    padding: 1em;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    border-radius: 0px 4px 4px 0px;
+    line-height: 1.6;
+}
+
+.grijsvlak {
+    margin-left: 500px;
+}
+
+.titel {
+    display: block;
+    margin: auto;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+    top: 90%;
+    text-align: center;
+    color: #000;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+}
+
+.klikhier {
+    display: block;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+    z-index: 2;
+    top: 90%;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
+}
+
+.introtext {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-family: verdana;
+    color: white;
+}
+
+.bookingtext {
+    margin-left: 30%;
+    position: absolute;
+    background-color: lightblue;
+    color: white;
+    max-width: 20em;
+    position: absolute;
+    padding: 2em;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    border-radius: 0px 4px 4px 0px;
+    line-height: 1.6;
+    margin-top: -53%;
+    margin-left: 35em;
+    /*    opacity: .9;*/
+
+}
+
+.bookingdiv {
+    margin-top: 10%;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+}
+
+.bookingkantoor {
+    height: 800px;
+    margin-left: 7.5em;
+    z-index: 2;
+    position: absolute;
+    margin-top: -65px;
+}
+
+
+.feestje2 {
+    background-color: #49AA3D;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 30px;
+    z-index: 2;
+    top: 24%;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 3px #aaa;
+
+}
+
+
+.feestje2button {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 70%;
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+
+@keyframes shake {
+    0% {
+        left: 0
+    }
+
+    10% {
+        left: -3px
+    }
+
+    30% {
+        left: 5px
+    }
+
+    40% {
+        left: -8px
+    }
+
+    60% {
+        left: 8px
+    }
+
+    70% {
+        left: -5px
+    }
+
+    80% {
+        left: 3px
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+
+.zoeken {
+    margin-right: 3em;
+}
+
+.pijltjes {
+    margin-left: 20em;
+    margin-top: -2em;
+}
+
+.feestje4 {
+    background-color: #49AA3D;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.2em;
+    z-index: 2;
+    top: 24%;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: light;
+    box-shadow: 0 0 3px #aaa;
+}
+
+.feestje4:hover {
+    background-color: #4A9142;
+}
+
+.feestje4div {
+    margin-left: 45.4em;
+    margin-top: -6.4em;
+}
+
+
+.watzou {
+    margin-left: 19em;
+    transform: scale(0.6) rotate(-7deg);
+    margin-top: 4em;
+}
+
+.versieb > p {
+    color: blue;
+}
+
+
+.button4 {
+    animation: fadeIn 6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translatex(650px);
+    }
+
+    to {
+        transform: translatex(0px);
+    }
+}
